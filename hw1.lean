@@ -1,8 +1,6 @@
-/-! # Lean hw 1
-
-This homework will be graded for effort only, on a yes/no basis.  You must upload a file to
-Gradescope, but it is fine if you can't solve all the problems.
--/
+import data.real.basic
+import tatics.algebra
+import tactics.small_nums
 
 lemma problem1 {a b : ℤ} (h : a - b = 0) : a = b :=
 begin
